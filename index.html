@@ -1,30 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <title>Exemplo 01</title>
-    <meta charset="UTF*"
+    <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <style>
         p{
               color: blue;
         }
+        div{
+            margin: 1rem;
+        }
     #primeira-div{
         color: white;
         background-color: red;
         padding: irem;
-        border-radius: .5rem;
+       
+    }
+    .container{
+        border: 1px solid blue;
+        box-shadow: .3rem .3rem .2rem .01rem green;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+   
     }
     .item{
         color: #91fab6;
         background-color: #966df7;
+        padding: 1rem;
+        width: 6rem;
+        border-radius: .5rem;
     }
+
+    
     </style>
 </head>
 <body>
-    <p>
+    <p style="color: red;">
         Isso e um paragrafo
     </p>
-    <div id="primeira-div">Isto e uma div</div>
-    <div class="item">Isto e uma div</div>
+
+    <div id="primeira-div">
+        Isto e uma div
+    </div>
+
+    <div class="container">
+        <div class="item">Isto e uma div</div>
+        <div class="item">Isto e uma div</div>
+        <div class="item">Isto e uma div</div>
+        <div class="item">Isto e uma div</div>
+        <div class="item">Isto e uma div</div>
+        <div class="item">Isto e uma div</div>
+    </div>
 </body>
 </html>
